@@ -6,24 +6,19 @@
 
 
 body{
-    /* background-image: url(../images/background3.jpg); */
-    /* padding: 5%; */
-    background-color: whitesmoke;
+    /* background-image: url(../images/background3.jpg);
+    padding: 5%;  */
+     background-color: whitesmoke;
     display: flex;
     justify-content: center;
 }
 
 /* .page-container{
-    background-color:white;
-    background-image: url(../images/pagecontainer.jpg); 
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 130vh;
-    border: transparent black 1px;
-    border-radius: 10px;
-    position:relative;
+    background-color:whitesmoke;
+    max-width: 3410px;
+    max-height:2160px;
+    height: 150vh;
 } */
-/* @media screen and (min-width:700px) and (max-width:2160p){ */
 
 .grid-container{
     background-color: whitesmoke;
@@ -39,7 +34,7 @@ body{
     'main main main'
     'footer footer footer';
     grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 100px 1fr 500px;
+    grid-template-rows: 100px 1fr 600px;
     border: transparent black 1px;
     border-radius: 10px;
     
@@ -405,13 +400,13 @@ li{
         align-self: end;
     }
 
-    @media (min-width:240px) and (min-height:520px){
+    @media (min-width:500px) and (min-height:240px){
 
          .grid-container{
             background-color: whitesmoke;
             font-family: 'Poppins', sans-serif;
             /* min-width: 1149px; */
-            max-width: 240px;
+            max-width: 500px;
             /* min-height: 1620px; */
             /* max-height: 1620px; */
             display: grid;
@@ -456,41 +451,46 @@ li{
         margin: 0;
         align-items: start;;
        } */
+
         .main-image{
             height:200px;
             width: 200px;
-           margin: 0;
+            margin-left: 25%;
         }
 
         h2{
             font-size:30px;
+            margin-left: 30%;
         }
 
         .part1{
-            font-size: 10px;
-            line-height:20px;
+            font-size: 15px;
+            line-height:25px;
             margin: 0;
         }
 
         h3{
             font-size: 20px;
+            margin-left: 25%;
         }
 
         .part2{
-            font-size: 8px;
-            line-height: 16px;
+            font-size: 14px;
+            line-height: 24px;
+            
         }
 
         li{
-            font-size: 6px;
-            padding: 5px;
+            font-size: 10px;
+            padding: 10px;
             line-height: 0;
             border-radius: 3px;
         }
 
         .work-title{
             font-size: 18px;
-            text-align: center;
+            margin-left: 5%;
+            
         }
 
         .lana{
@@ -500,7 +500,7 @@ li{
 
         h4{
             font-size: 10px;
-            text-align: center;
+            
         }
 
         .part3{
