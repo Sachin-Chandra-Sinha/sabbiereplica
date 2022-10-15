@@ -380,13 +380,12 @@ li{
         align-self: end;
     }
 
-    @media (min-width:240px) and (min-height:520px){
+    @media (min-width:240px){
 
          .grid-container{
             background-color: whitesmoke;
             font-family: 'Poppins', sans-serif;
             max-width: 560px;
-            max-height: fit-content;
             display: grid;
             height: 120vh;
             grid-template-areas: 
